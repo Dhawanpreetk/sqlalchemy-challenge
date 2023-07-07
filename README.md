@@ -12,24 +12,38 @@ Linked Python to the database by creating a SQLAlchemy session.
 Performed the following steps: 
 
 1.Find the most recent date in the dataset.
+
 2.Using that date, get the previous 12 months of precipitation data by querying the previous 12 months of data.
+
 3.Select only the "date" and "prcp" values.
+
 4.Load the query results into a Pandas DataFrame. Explicitly set the column names.
+
 5.Sort the DataFrame values by "date".
+
 6.Plot the results by using the DataFrame plot method, as the following image shows:
+
 <img width="467" alt="image" src="https://github.com/Dhawanpreetk/sqlalchemy-challenge/assets/130263833/a8fe4784-57ff-4aec-b9d5-fc9a6d15a5b7">
 
 
 # Station Analysis : Instructions 
 
 1.Design a query to calculate the total number of stations in the dataset.
+
 2.Design a query to find the most-active stations (that is, the stations that have the most rows). To do so, complete the following steps:
+
 3.List the stations and observation counts in descending order.
+
 4.Design a query that calculates the lowest, highest, and average temperatures that filters on the most-active station id found in the previous query.
+
 5.Design a query to get the previous 12 months of temperature observation (TOBS) data. To do so, complete the following steps:
+
 6.Filter by the station that has the greatest number of observations.
+
 7.Query the previous 12 months of TOBS data for that station.
+
 8.Plot the results as a histogram with bins=12, as the following image shows:
+
 <img width="482" alt="image" src="https://github.com/Dhawanpreetk/sqlalchemy-challenge/assets/130263833/0d494ea8-89b4-4aac-8b0b-16f0cd7fd104">
 
 
