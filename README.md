@@ -8,6 +8,7 @@ Used the SQLAlchemy create_engine() function to connect to your SQLite database.
 Used the SQLAlchemy automap_base() function to reflect your tables into classes, and then save references to the classes named station and measurement.
 Linked Python to the database by creating a SQLAlchemy session.
 
+
 Performed the following steps: 
 
 1.Find the most recent date in the dataset.
@@ -16,6 +17,8 @@ Performed the following steps:
 4.Load the query results into a Pandas DataFrame. Explicitly set the column names.
 5.Sort the DataFrame values by "date".
 6.Plot the results by using the DataFrame plot method, as the following image shows:
+<img width="467" alt="image" src="https://github.com/Dhawanpreetk/sqlalchemy-challenge/assets/130263833/a8fe4784-57ff-4aec-b9d5-fc9a6d15a5b7">
+
 
 # Station Analysis : Instructions 
 
@@ -27,6 +30,8 @@ Performed the following steps:
 6.Filter by the station that has the greatest number of observations.
 7.Query the previous 12 months of TOBS data for that station.
 8.Plot the results as a histogram with bins=12, as the following image shows:
+<img width="482" alt="image" src="https://github.com/Dhawanpreetk/sqlalchemy-challenge/assets/130263833/0d494ea8-89b4-4aac-8b0b-16f0cd7fd104">
+
 
 # Second part of the challenge is Designing the Climate App
 
